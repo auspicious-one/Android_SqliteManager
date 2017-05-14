@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context="com.example.looksqlite.Main.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/titlecolor"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SQLite管理器"
+            android:textSize="18sp" />
+        </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <ListView
+            android:id="@+id/main_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/main_new"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/main_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OpenSqlite"
+            android:text="@string/start_sqlite"
+            android:textSize="16sp"
+            android:background="@drawable/sqldata_list_select"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/main_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="NewSqlite"
+            android:text="@string/new_sqlite"
+            android:textSize="16sp"
+            android:background="@drawable/sqldata_list_select"
+            android:textColor="@color/white"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/main_open"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

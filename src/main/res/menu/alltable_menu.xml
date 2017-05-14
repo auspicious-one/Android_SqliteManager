@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Menu_search"
+        android:id="@+id/alltable_menu_search"
+        android:icon="@android:drawable/ic_menu_search" />
+    <item android:title="@string/Menu_add"
+        android:id="@+id/alltable_menu_add"
+        android:icon="@android:drawable/ic_menu_add" />
+    <item android:title="@string/Menu_detele"
+        android:id="@+id/alltable_menu_delete"
+        android:icon="@android:drawable/ic_menu_delete" />
+    <item android:title="@string/Menu_update"
+        android:id="@+id/alltable_menu_update"
+        android:icon="@android:drawable/ic_menu_edit" />
+</menu>

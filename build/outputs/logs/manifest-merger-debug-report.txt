@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+application
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:10:9-35
+	android:allowBackup
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:11:9-39
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:6:9-54
+activity#com.example.looksqlite.Main.MainActivity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:12:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.looksqlite.AllFile.AllFileActivity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:19:9-70
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:19:19-58
+activity#com.example.looksqlite.OpenSqlite.AllData_Activity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:20:9-64
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:20:19-62
+activity#com.example.looksqlite.OpenSqlite.AllTable_Activity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:21:9-65
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:21:19-63
+activity#com.example.looksqlite.Search.SelectResult_Activity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:22:9-65
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:22:19-63
+activity#com.example.looksqlite.NewSql.NewSql_Activity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:23:19-57
+service#com.qq.e.comm.DownloadService
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:24:9-90
+	android:exported
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:24:63-87
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:24:18-62
+activity#com.qq.e.ads.ADActivity
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:25:9-131
+	android:configChanges
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:25:58-128
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:25:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml:29:22-77
+uses-sdk
+INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\Android\Android\Projiect_go\looksqlite\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android\Projiect_go\looksqlite\src\main\AndroidManifest.xml

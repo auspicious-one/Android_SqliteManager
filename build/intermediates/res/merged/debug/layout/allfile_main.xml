@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlecolor">
+
+        <Button
+            android:text="@string/opensqlback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:onClick="Back"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="@string/alltable_seqrch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingRight="10dp"
+            android:background="@android:color/transparent"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:onClick="Search" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/allfile_main_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:dropDownWidth="match_parent" />
+
+    <ListView
+        android:id="@+id/allfile_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:divider="#ffffff"
+        android:dividerHeight="5dp" />
+
+</LinearLayout>

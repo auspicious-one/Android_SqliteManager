@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/titlecolor">
+
+    <Button
+        android:id="@+id/main_head_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/opensqlback"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/main_head_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="right|center_vertical"
+        android:onClick="More"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:text="@string/Main_Head_More"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_head_sql"
+        android:background="@android:color/transparent"
+        android:gravity="right|center_vertical|center_horizontal"
+        android:text="@string/Main_Head_Sql"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/main_head_more" />
+</RelativeLayout>
