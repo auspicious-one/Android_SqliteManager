@@ -39,6 +39,6 @@
     <string name="Yes">确定</string>
     <string name="NewSql_Title_Run">! 运行</string>
     <string name="NewSql_InputSql">请输入SQl语句</string>
-    <string name="appid">1105875343</string>
-    <string name="BannerPosID">4080821114711240</string>
+    <string name="appid"></string>
+    <string name="BannerPosID"></string>
 </resources>
